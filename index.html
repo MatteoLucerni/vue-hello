@@ -7,11 +7,14 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <title>Document</title>
+    <title>Paperella</title>
 </head>
 <body>
-    <div id="root">
-        <h1>{{hello}}</h1>
+    <div class="container py-5">
+        <div id="root" class="text-center">
+            <h1 class="mb-5">{{hello}}</h1>
+            <img :src="image" :alt="imageName">
+        </div>
     </div>
     
     <script src="js/script.js"></script>
